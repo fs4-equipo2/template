@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+.botonGamezone{
+    background-color: rgb(171, 217, 255);
+    border: none;
+    font-family: inherit;
+    font-size: 0.75rem;
+    height: 1.7rem;
+    width: 9rem;
+    border-radius: 3px;
+    box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
+}
+.botonGamezone:hover{
+    background-color: white;
+    cursor: pointer;
+}
