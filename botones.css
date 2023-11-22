@@ -11,14 +11,14 @@ body{
     border-radius: 3px;
     font-family: inherit;
     font-size: 1rem;
-    /* justify-content: center;
-    align-items: center;     */
     height: auto;
     width: auto;
     gap: 10px;   
 }
 .botonMain:hover{
     background-color: white;
+    color: black;
+    cursor: pointer;
 }
 svg{
     height: 0.95rem;
@@ -58,6 +58,18 @@ svg{
 .botonSesion:hover{
     cursor: pointer;
 }
+.botonMenuNav{
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+}
+.botonMenuNav:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+    cursor: pointer;
+}
 .botonUnete{
     display: flex; 
     background-color: transparent;
@@ -76,5 +88,31 @@ svg{
     text-decoration: none;
 }
 .botonUnete:hover{
+    cursor: pointer;
+}
+
+.botonBuscador{
+    padding: 0.5rem;
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    border: none;
+}
+.botonBuscador:hover{
+    cursor: pointer;
+}
+.botonListaDeseos{
+    background-color: transparent;
+    border: none;
+}
+.botonListaDeseos:hover{
+    cursor: pointer;
+}
+.botonBolsaCompra{
+    background-color: transparent;
+    border: none;
+}
+.botonBolsaCompra:hover{
     cursor: pointer;
 }
