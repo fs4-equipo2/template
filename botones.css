@@ -20,7 +20,7 @@ body{
     color: black;
     cursor: pointer;
 }
-svg{
+.botonFlecha{
     height: 0.95rem;
 }
 .linkMain{    
