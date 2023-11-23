@@ -9,23 +9,23 @@ body {
     padding: 0;
   }
   
-  .pre-navbar-typo {
+  .typo-prenavbar {
     background-color: #fff;
     color: #000; 
   }
   
-  .texto-prenavbar {
+  .typo-prenavbar {
     list-style: none;
     display: flex; 
     padding: 10px;
     margin: 0;
   }
   
-  .texto-prenavbar li {
+  .typo-prenavbar li {
     margin-right: 20px; 
   }
   
-  .texto-prenavbar a {
+  .typo-prenavbar a {
     color: blue; 
     text-decoration: none;
   }
@@ -57,7 +57,7 @@ body {
     text-decoration: underline; 
   }
   
-  .seccion-main-typo {
+  .typo-seccion-main {
     padding: 20px;
   }
   
