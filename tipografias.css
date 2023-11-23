@@ -20,43 +20,39 @@
     --typo-welcome: Cera Pro,sans-serif;
     --typo-footer: Cera Pro,sans-serif;
 
+     /*Colores*/
 
-
-
-
-    /*Colores*/
-
-    --black-light: #191919;
-    --black: #000;
-    --blue-dark: #003a71;
-    --blue-extra-light: #e6f3ff;
-    --blue-kids-dark: #3055b5;
-    --blue-kids: #abd9ff;
-    --blue-light: #31a1e0;
-    --blue: #006db7;
-    --green-extra-light: #ccead8;
-    --green: #008537;
-    --grey-dark: #2c2c2c;
-    --grey-extra-extra-light: #f6f6f6;
-    --grey-extra-light: #f8f8f8;
-    --grey-light: #e0e0e0;
-    --grey-medium: #cacaca;
-    --grey: #757575;
-    --orange-dark: #e86902;
-    --orange: #fd8024;
-    --purple-dark: #18152d;
-    --purple: #201d48;
-    --red-dark: #9d1604;
-    --red-extra-light: #fff2f2;
-    --red: #d0021b;
-    --transparent: transparent;
-    --vip-blue: #0a4dad;
-    --white: #fff;
-    --yellow-extra-light: #fef6d2;
-    --yellow-light: #ffdb4b;
-    --yellow: #ffcf00;
+     --black-light: #191919;
+     --black: #000;
+     --blue-dark: #003a71;
+     --blue-extra-light: #e6f3ff;
+     --blue-kids-dark: #3055b5;
+     --blue-kids: #abd9ff;
+     --blue-light: #31a1e0;
+     --blue: #006db7;
+     --green-extra-light: #ccead8;
+     --green: #008537;
+     --grey-dark: #2c2c2c;
+     --grey-extra-extra-light: #f6f6f6;
+     --grey-extra-light: #f8f8f8;
+     --grey-light: #e0e0e0;
+     --grey-medium: #cacaca;
+     --grey: #757575;
+     --orange-dark: #e86902;
+     --orange: #fd8024;
+     --purple-dark: #18152d;
+     --purple: #201d48;
+     --red-dark: #9d1604;
+     --red-extra-light: #fff2f2;
+     --red: #d0021b;
+     --transparent: transparent;
+     --vip-blue: #0a4dad;
+     --white: #fff;
+     --yellow-extra-light: #fef6d2;
+     --yellow-light: #ffdb4b;
+     --yellow: #ffcf00;
+ 
 }
-
 
 
 /*Titulo y subtítulo sección Menu     Camila*/
@@ -176,3 +172,85 @@ h2, h3{
     justify-content: center;
 }
 
+
+/* Stickers - José */
+
+.sticker {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150.5px;
+    height: 245.25px;
+}
+
+.sticker-top {
+    transform: translateY(150%)
+}
+
+.sticker-title {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1875rem;
+    font-family: var(--typo-sticker);
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+/* Welcome message section - José*/
+
+.cont-welcome {
+    font-family: var(--typo-welcome);
+    padding: 1.25em;
+    margin: 0 1em;
+}
+
+.cont-welcome-msg {
+    background-color: #f2f2f2;
+    padding: 1em;
+    line-height: 1.4em;
+}
+
+.cont-welcome a {
+    text-decoration: none;
+}
+
+/* Footer - José */
+
+.footer {
+    font-family: var(--typo-footer);
+    color: white;
+    background: rgb(32, 29, 72);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-top-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom-subs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-bottom-final-terms {
+    display: flex;
+    flex-direction: row;
+}
