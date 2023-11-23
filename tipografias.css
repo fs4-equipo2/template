@@ -1,5 +1,7 @@
 :root {
-
+  /* Typos Maria */
+--typo-prenavbar:Cera Pro, sans-serif;
+    --typo-seccion-main:Cera Pro, sans-serif;
 
     /* Tipografias Camila */
 
@@ -54,7 +56,41 @@
  
 }
 
+/*Texto Prenavbar    Maria*/
+ .typo-prenavbar {
+    background-color: #fff;
+    color: #000; 
+  }
+  
+  .typo-prenavbar {
+    list-style: none;
+    display: flex; 
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .typo-prenavbar li {
+    margin-right: 20px; 
+  }
+  
+  .typo-prenavbar a {
+    color: blue; 
+    text-decoration: none;
+  }
 
+/*Titulo y Subtitulo Seccion Main    Maria*/
+
+.typo-seccion-main {
+    padding: 20px;
+  }
+  
+  .titulo-main {
+    color: #000; 
+  }
+  
+  .subtitulo-main {
+    color: #000; 
+  }
 /*Titulo y subtítulo sección Menu     Camila*/
 
 .navbar{
