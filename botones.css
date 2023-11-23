@@ -116,3 +116,74 @@ body{
 .botonBolsaCompra:hover{
     cursor: pointer;
 }
+
+/* Parte de Martin empieza aquí */
+.boton-compra-link {
+    text-decoration: none;
+}
+
+.boton-compra {
+    display: block;
+    width: auto;
+    background-color: rgb(253, 128, 36);
+
+    padding: 0.9375rem;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: rgb(253, 128, 36);
+
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.1875rem;
+}
+
+.boton-compra:hover {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.boton-articulos {
+    min-width: max-content;
+    background-color: transparent;
+
+    padding: 0.9rem;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 2px solid #0067b2;
+    border-radius: 30rem;
+}
+
+.boton-articulos:hover {
+    cursor: pointer;
+    background-color: #0067b2;
+
+    color: white;
+    text-decoration: underline;
+}
+
+.rs-boton-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.boton-rs{
+    display: flex;
+    background-color: transparent;
+    border: none;
+
+}
+
+.svg-rs {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+}
+
+.boton-rs:hover {
+    cursor: pointer;
+}
