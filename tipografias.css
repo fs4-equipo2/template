@@ -1,6 +1,6 @@
 :root {
   /* Typos Maria */
---typo-prenavbar:Cera Pro, sans-serif;
+   --typo-prenavbar:Cera Pro, sans-serif;
     --typo-seccion-main:Cera Pro, sans-serif;
 
     /* Tipografias Camila */
@@ -58,6 +58,7 @@
 
 /*Texto Prenavbar    Maria*/
  .typo-prenavbar {
+  font-family: var(--typo-prenavbar);
     background-color: #fff;
     color: #000; 
   }
@@ -81,6 +82,7 @@
 /*Titulo y Subtitulo Seccion Main    Maria*/
 
 .typo-seccion-main {
+  font-family: var(--typo-seccion-main);
     padding: 20px;
   }
   
