@@ -148,7 +148,7 @@ body{
     min-width: max-content;
     background-color: transparent;
 
-    padding: 0.9rem;
+    padding: 0.85rem;
 
     font-size: 0.8rem;
     font-weight: bold;
@@ -171,17 +171,20 @@ body{
 }
 
 .boton-rs{
+    width: 40px;
+    height: 40px;
     display: flex;
-    background-color: transparent;
+    background-color: black;
+
     border: none;
+    border-radius: 50%;
 
 }
 
 .svg-rs {
     width: 40px;
     height: 40px;
-
-    border-radius: 50%;
+    fill: white;
 }
 
 .boton-rs:hover {
