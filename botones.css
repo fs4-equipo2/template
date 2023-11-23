@@ -1,97 +1,93 @@
-body{
-    font-family: sans-serif;
-}
-
-.botonMain{
+/* Parte de Denise empieza aquí  */
+.boton-main{
     display: flex; 
     padding: 0.75rem;
     background-color: black;
     color: white;
     border: none;
     border-radius: 3px;
-    font-family: inherit;
+    font-weight: bold;
     font-size: 1rem;
     height: auto;
     width: auto;
     gap: 10px;   
 }
-.botonMain:hover{
+.boton-main:hover{
     background-color: white;
     color: black;
     cursor: pointer;
 }
-.botonFlecha{
+.boton-flecha{
     height: 0.95rem;
 }
-.linkMain{    
+.link-main-boton{    
     text-decoration: none;
 }
 
-.botonGamezone{
+.boton-gamezone{
     background-color: rgb(171, 217, 255);
     border: none;
-    font-family: inherit;
+    font-weight: bold;
     font-size: 0.75rem;
     height: 1.7rem;
     width: 9rem;
     border-radius: 3px;
     box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
 }
-.botonGamezone:hover{
+.boton-gamezone:hover{
     background-color: white;
     cursor: pointer;
 }
 
-.botonSesion{
+.boton-sesion{
     display: flex; 
     background-color: transparent;
     border: none;
-    font-family: inherit;
+    font-weight: bold;
     font-size: 0.75rem;
     align-items: center;    
     height: 1.7rem;
     gap: 10px;
 }
-.linkIniciarSesion{
+.link-iniciar-sesion{
     text-decoration: none;
 }
-.botonSesion:hover{
+.boton-sesion:hover{
     cursor: pointer;
 }
-.botonMenuNav{
+.boton-menu-nav{
     background-color: transparent;
     border: none;
-    font-family: inherit;
     font-weight: bold;
 }
-.botonMenuNav:hover{
+.boton-menu-nav:hover{
     text-decoration: underline;
     text-decoration-thickness: 0.2rem;
     text-underline-offset: 0.2rem;
     cursor: pointer;
 }
-.botonUnete{
+.boton-unete{
     display: flex; 
     background-color: transparent;
     border: none;
-    font-family: inherit;
+    font-weight: bold;
     font-size: 0.75rem;
     align-items: center;    
     height: 1.7rem;
     gap: 10px;
 }
-.botonUnete img{
+.boton-unete img{
     width: 1.25rem;
     height: 1.25rem;
 }
-.linkUnete{
+.link-unete-boton{
     text-decoration: none;
 }
-.botonUnete:hover{
+.boton-unete:hover{
     cursor: pointer;
 }
 
-.botonBuscador{
+.boton-buscador{
     padding: 0.5rem;
     background-color: white;
     height: auto;
@@ -99,21 +95,21 @@ body{
     border-radius: 50%;
     border: none;
 }
-.botonBuscador:hover{
+.boton-buscador:hover{
     cursor: pointer;
 }
-.botonListaDeseos{
+.boton-lista-deseos{
     background-color: transparent;
     border: none;
 }
-.botonListaDeseos:hover{
+.boton-lista-deseos:hover{
     cursor: pointer;
 }
-.botonBolsaCompra{
+.boton-bolsa-compra{
     background-color: transparent;
     border: none;
 }
-.botonBolsaCompra:hover{
+.boton-bolsa-compra:hover{
     cursor: pointer;
 }
 
