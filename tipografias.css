@@ -1,1 +1,71 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url(/Users/mariacortes/Documents/LETRAS/Cera-Pro);
+}
 
+body {
+    font-family: 'MiFuente', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pre-navbar-typo {
+    background-color: #fff;
+    color: #000; 
+  }
+  
+  .texto-prenavbar {
+    list-style: none;
+    display: flex; 
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .texto-prenavbar li {
+    margin-right: 20px; 
+  }
+  
+  .texto-prenavbar a {
+    color: blue; 
+    text-decoration: none;
+  }
+  
+
+  .navbar-typo {
+    background-color: #ffcf00; 
+    color: #000; 
+  }
+  
+  .opcion-navbar {
+    list-style: none;
+    display: flex; 
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .opcion-navbar li {
+    margin-right: 20px; 
+  }
+  
+  .opcion-navbar a {
+    color: #000; 
+    text-decoration: none; 
+  }
+  
+
+  .opcion-navbar a:hover {
+    text-decoration: underline; 
+  }
+  
+  .seccion-main-typo {
+    padding: 20px;
+  }
+  
+  .titulo-main {
+    color: #000; 
+  }
+  
+  .subtitulo-main {
+    color: #000; 
+  }
+  
