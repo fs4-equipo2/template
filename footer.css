@@ -49,7 +49,17 @@
   background: rgb(32, 29, 72);
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
+  padding: 3em 2em;
+  gap: 3em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-top {
@@ -58,9 +68,70 @@
   justify-content: space-between;
 }
 
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.footer-top-left-shop {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#footer-top-shop-button {
+  display: flex;
+  background: transparent;
+  border: 0;
+  padding: 1em;
+  background-color: rgb(19, 17, 36);
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  width: 97px;
+}
+
+#footer-top-shop-button p {
+  font-family: var(--typo-font-general);
+  color: white;
+}
+
+#footer-top-shop-svg {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 1.779;
+}
+
+.footer-top-left-final {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 .footer-top-right {
   display: flex;
   flex-direction: row;
+  height: auto;
+  gap: 5em;
+}
+
+.footer-top-about, .footer-top-support, .footer-top-attractions, .footer-top-moreinfo {
+  display: flex;
+  flex-direction: column;
+  width: 12em;
+}
+
+.footer-column-title {
+  font-weight: bold;
+}
+
+.footer-top-right ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  gap: 2em;
 }
 
 .footer-bottom {
@@ -74,7 +145,60 @@
   justify-content: space-between;
 }
 
+#email-form {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#email-form input {
+  height: 4em;
+  width: 13em;
+}
+
+#email-form button {
+  background-color: rgb(253, 128, 36);
+  border-color: rgb(253, 128, 36);
+  border-radius: 0px 0.3125rem 0.3125rem 0px;
+  width: 4em;
+}
+
+.footer-bottom {
+  gap: 5em;
+}
+
+.footer-bottom-subs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.boton-rs{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  background-color: rgb(19, 17, 36);
+  border: none;
+  border-radius: 50%;
+
+}
+
+.svg-rs {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}
+
+.boton-rs:hover {
+  cursor: pointer;
+}
+
+.footer-bottom-final {
+  font-size: smaller;
+}
+
 .footer-bottom-final-terms {
   display: flex;
   flex-direction: row;
+  gap: 2em;
 }
