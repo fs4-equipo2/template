@@ -32,7 +32,7 @@
   height: 1.7rem;
   width: 9rem;
   border-radius: 3px;
-  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
+  box-shadow: var(--box-shadow-kids) 0px 1px 4px 0px;
 }
 .boton-gamezone:hover {
   background-color: var(--white);
@@ -148,13 +148,13 @@
 
   font-size: 0.8rem;
   font-weight: bold;
-  border: 2px solid #0067b2;
+  border: 2px solid var(--blue);
   border-radius: 30rem;
 }
 
 .boton-articulos:hover {
   cursor: pointer;
-  background-color: #0067b2;
+  background-color: var(--blue);
 
   color: var(--white);
   text-decoration: underline;
