@@ -25,7 +25,7 @@
 }
 
 .boton-gamezone {
-  background-color: rgb(171, 217, 255);
+  background-color: var(--blue-kids);
   border: none;
   font-weight: bold;
   font-size: 0.75rem;
@@ -121,7 +121,7 @@
 .boton-compra {
   display: block;
   width: auto;
-  background-color: rgb(253, 128, 36);
+  background-color: #fd8024;
 
   padding: 0.9375rem;
 
