@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "legofont" ;
+    src: url(Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf);
+}
+
+:root {
+ 
+  /* Typos Maria */
+  --typo-font-general: legofont;
+
+  /*Colores*/
+
+  --black-light: #191919;
+  --black: #000;
+  --blue-dark: #003a71;
+  --blue-extra-light: #e6f3ff;
+  --blue-kids-dark: #3055b5;
+  --blue-kids: #abd9ff;
+  --blue-light: #31a1e0;
+  --blue: #006db7;
+  --green-extra-light: #ccead8;
+  --green: #008537;
+  --grey-dark: #2c2c2c;
+  --grey-extra-extra-light: #f6f6f6;
+  --grey-extra-light: #f8f8f8;
+  --grey-light: #e0e0e0;
+  --grey-medium: #cacaca;
+  --grey: #757575;
+  --orange-dark: #e86902;
+  --orange: #fd8024;
+  --purple-dark: #18152d;
+  --purple: #201d48;
+  --red-dark: #9d1604;
+  --red-extra-light: #fff2f2;
+  --red: #d0021b;
+  --transparent: transparent;
+  --vip-blue: #0a4dad;
+  --white: #fff;
+  --yellow-extra-light: #fef6d2;
+  --yellow-light: #ffdb4b;
+  --yellow: #ffcf00;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: var(--yellow);
+    font-family: var(--typo-font-general);
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pre-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--typo-font-general);
+    padding: 10px;
+}
+
+/*Texto Prenavbar    Maria*/
+.typo-prenavbar {
+  font-family: var(--typo-font-general);
+  background-color: var(--white);
+  color: var(--black);
+  
+}
+
+.typo-prenavbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.typo-prenavbar li {
+  margin-right: 20px;
+}
+
+.typo-prenavbar a {
+  color: var(--blue);
+  text-decoration: none;
+}
+/*Titulo y subtítulo sección Menu     Camila*/
+
+.ul-navbar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 1rem;
+    font-weight:bolder;
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  .ul-navbar > li > a {
+    color: var(--black);
+    text-decoration: none;
+  
+    font-family: var(--typo-font-general);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .menu-comprar {
+    font-family: var(--typo-font-general);
+    font-size: 1rem;
+    font-weight: 500;
+  
+    list-style: none;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 30px;
+  }
+  
+  .oculto-comprar {
+    display: none;
+  }
+  .oculto-descubrir {
+    display: none;
+  }
+  
+  /* Botones Prenavbar y Navbar */
+
+.botones-navbar-derecha {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.boton-gamezone {
+    background-color: var(--blue-kids);
+    border: none;
+    font-weight: bold;
+    font-size: 0.75rem;
+    height: 1.7rem;
+    width: 9rem;
+    border-radius: 3px;
+    box-shadow: var(--box-shadow-kids) 0px 1px 4px 0px;
+  }
+  .boton-gamezone:hover {
+    background-color: var(--white);
+    cursor: pointer;
+  }
+  
+  .boton-sesion {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 0.75rem;
+    align-items: center;
+    height: 1.7rem;
+    gap: 10px;
+  }
+
+  .link-iniciar-sesion {
+    text-decoration: none;
+  }
+  .boton-sesion:hover {
+    cursor: pointer;
+  }
+
+.boton-unete {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-weight:bold;
+    font-size: 0.75rem;
+    align-items: center;
+    height: 1.7rem;
+    gap: 10px;
+  }
+  .boton-unete img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .link-unete-boton {
+    text-decoration: none;
+  }
+  .boton-unete:hover {
+    cursor: pointer;
+  }
+
+  .botones-prenavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.boton-buscador {
+    padding: 0.5rem;
+    background-color: var(--white);
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    border: none;
+  }
+  .boton-buscador:hover {
+    cursor: pointer;
+  }
+  .boton-lista-deseos {
+    background-color: transparent;
+    border: none;
+  }
+  .boton-lista-deseos:hover {
+    cursor: pointer;
+  }
+  .boton-bolsa-compra {
+    background-color: transparent;
+    border: none;
+  }
+  .boton-bolsa-compra:hover {
+    cursor: pointer;
+  }
+
+  li {
+    background-color: transparent;
+    border: none;
+  }
+ li:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.2rem;
+    cursor: pointer;
+  }
+
+  .logo-lego {
+    padding-left: 40px;
+    margin-right: 4rem;
+  }
