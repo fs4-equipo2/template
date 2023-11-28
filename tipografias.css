@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "legofont" ;
+    src: url(Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf);
+}
+
+:root {
+ 
+  /* Font */
+  --typo-font-general: legofont;
+
+  /*Colores*/
+
+  --black-light: #191919;
+  --black: #000;
+  --blue-dark: #003a71;
+  --blue-extra-light: #e6f3ff;
+  --blue-kids-dark: #3055b5;
+  --blue-kids: #abd9ff;
+  --box-shadow-kids: #3055b570;
+  --blue-light: #31a1e0;
+  --blue: #006db7;
+  --green-extra-light: #ccead8;
+  --green: #008537;
+  --grey-dark: #2c2c2c;
+  --grey-extra-extra-light: #f6f6f6;
+  --grey-extra-light: #f8f8f8;
+  --grey-light: #e0e0e0;
+  --grey-medium: #cacaca;
+  --grey: #757575;
+  --orange-dark: #e86902;
+  --orange: #fd8024;
+  --purple-dark: #18152d;
+  --purple: #201d48;
+  --red-dark: #9d1604;
+  --red-extra-light: #fff2f2;
+  --red: #d0021b;
+  --transparent: transparent;
+  --vip-blue: #0a4dad;
+  --white: #fff;
+  --yellow-extra-light: #fef6d2;
+  --yellow-light: #ffdb4b;
+  --yellow: #ffcf00;
+}
+
+/*Texto Prenavbar    Maria*/
+.typo-prenavbar {
+  font-family: var(--typo-font-general);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.typo-prenavbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.typo-prenavbar li {
+  margin-right: 20px;
+}
+
+.typo-prenavbar a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/*Titulo y Subtitulo Seccion Main    Maria*/
+
+.typo-seccion-main {
+  font-family: var(--typo-font-general);
+  padding: 20px;
+}
+
+.titulo-main {
+  color: var(--black);
+}
+
+.subtitulo-main {
+  color: var(--black);
+}
+/*Titulo y subtítulo sección Menu     Camila*/
+
+.navbar {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  font-family: var(--typo-font-general);
+  font-size: 1rem;
+  font-weight: 400;
+
+  list-style: none;
+
+  background-color: var(--yellow);
+}
+
+.navbar > li > a {
+  color: var(--black);
+  text-decoration: none;
+
+  font-family: var(--typo-font-general);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.menu-comprar {
+  font-family: var(--typo-font-general);
+  font-size: 1rem;
+  font-weight: 500;
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 30px;
+}
+
+.oculto-comprar {
+  display: none;
+}
+.oculto-descubrir {
+  display: none;
+}
+
+/*Titulo y subtitulo card de producto    Camila*/
+
+.containerModa {
+  font-family: var(--typo-font-general);
+  font-weight: 400;
+  background-color: var(--grey-extra-extra-light);
+}
+
+h2,
+h3 {
+  font-family: var(--typo-font-general);
+  font-weight: 400;
+}
+
+.containerRecomendado {
+  font-family: var(--typo-font-general);
+}
+
+.containerDestacados {
+  font-family: var(--typo-font-general);
+  color: var(--white);
+  background-color: var(--blue-kids-dark);
+}
+
+.cardContainerProductos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  background-color: var(--yellow);
+}
+
+.card-left {
+  font-family: var(--typo-font-general);
+  font-weight: 400;
+
+  background-color: var(--white);
+  margin: 15px;
+  padding: 10px;
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*Titulo, subtitulo, texto card Blog     Camila*/
+
+.cardContainerBlog {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  background-color: var(--blue-kids);
+}
+
+.card-centered {
+  font-family: var(--typo-font-general);
+
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--white);
+
+  width: 400px;
+  margin: 15px;
+  padding: 5px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Stickers - José */
+
+.cont-stickers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5em;
+}
+
+.sticker {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 150.5px;
+  height: 245.25px;
+}
+
+.sticker-top {
+  transform: translateY(150%);
+}
+
+.sticker-title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.1875rem;
+  font-family: var(--typo-font-general);
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: rgb(0, 0, 0);
+}
+
+/* Welcome message section - José*/
+
+.cont-welcome {
+  font-family: var(--typo-font-general);
+  padding: 1.25em;
+  margin: 0 1em;
+}
+
+.cont-welcome-msg {
+  background-color: #f2f2f2;
+  padding: 1em;
+  line-height: 1.4em;
+}
+
+.cont-welcome a {
+  text-decoration: none;
+}
+
+/* Footer - José */
+
+.footer {
+  font-family: var(--typo-font-general);
+  color: white;
+  background: rgb(32, 29, 72);
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom-subs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom-final-terms {
+  display: flex;
+  flex-direction: row;
+}
