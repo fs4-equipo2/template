@@ -123,7 +123,8 @@
 }
 
 .footer-column-title {
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .footer-top-right ul {
@@ -172,6 +173,8 @@
   flex-direction: row;
   gap: 10px;
 }
+
+/* Botones RS: Martin */
 
 .boton-rs{
   width: 40px;
