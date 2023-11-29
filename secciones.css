@@ -1,0 +1,28 @@
+.contenido-general{
+    max-width: 100rem;
+    height: auto;
+    background-color: red;
+}
+
+.texto-legoinsiders{
+    width: 35%;
+    position: absolute;
+    left: 6.875rem;
+    top: 5rem;
+    color: var(--white);
+    font-family: var(--typo-font-general);
+}
+
+.legoinsiders-title{
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+}
+
+.legoinsiders-disfruta-texto p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.imagen-legoinsiders{
+    max-height: 3.125rem;
+    max-width: 9.375rem;
+}
