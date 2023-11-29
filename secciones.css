@@ -26,3 +26,33 @@
     max-height: 3.125rem;
     max-width: 9.375rem;
 }
+
+.botones-main-legoinsiders{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+.boton-main {
+    display: flex;
+    padding: 0.75rem;
+    background-color: var(--white);
+    color: var(--black);
+    border: none;
+    border-radius: 3px;
+    /* font-weight: bold; */
+    font-size: 1rem;
+    height: auto;
+    width: auto;
+    gap: 10px;
+    font-family: var(--typo-font-general);
+  }
+  .boton-main:hover {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+  }
+  .boton-flecha {
+    height: 0.95rem;
+  }
+  .link-main-boton {
+    text-decoration: none;
+  }
