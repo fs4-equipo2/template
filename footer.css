@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "legofont" ;
+    src: url(Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf);
+}
+
+:root {
+ 
+  /* Font */
+  --typo-font-general: legofont;
+
+  /*Colores*/
+
+  --black-light: #191919;
+  --black: #000;
+  --blue-dark: #003a71;
+  --blue-extra-light: #e6f3ff;
+  --blue-kids-dark: #3055b5;
+  --blue-kids: #abd9ff;
+  --blue-light: #31a1e0;
+  --blue: #006db7;
+  --green-extra-light: #ccead8;
+  --green: #008537;
+  --grey-dark: #2c2c2c;
+  --grey-extra-extra-light: #f6f6f6;
+  --grey-extra-light: #f8f8f8;
+  --grey-light: #e0e0e0;
+  --grey-medium: #cacaca;
+  --grey: #757575;
+  --orange-dark: #e86902;
+  --orange: #fd8024;
+  --purple-dark: #18152d;
+  --purple: #201d48;
+  --red-dark: #9d1604;
+  --red-extra-light: #fff2f2;
+  --red: #d0021b;
+  --transparent: transparent;
+  --vip-blue: #0a4dad;
+  --white: #fff;
+  --yellow-extra-light: #fef6d2;
+  --yellow-light: #ffdb4b;
+  --yellow: #ffcf00;
+}
+
+/* Footer - José */
+
+.footer {
+  font-family: var(--typo-font-general);
+  color: white;
+  background: rgb(32, 29, 72);
+  display: flex;
+  flex-direction: column;
+  padding: 3em 6em;
+  gap: 3em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-top-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.footer-top-left-shop {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#footer-top-shop-button {
+  display: flex;
+  background: transparent;
+  border: 0;
+  padding: 1em;
+  background-color: rgb(19, 17, 36);
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  width: 97px;
+}
+
+#footer-top-shop-button p {
+  font-family: var(--typo-font-general);
+  color: white;
+}
+
+#footer-top-shop-svg {
+  fill: transparent;
+  stroke: white;
+  stroke-width: 1.779;
+}
+
+.footer-top-left-final {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.footer-top-right {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  gap: 5em;
+}
+
+.footer-top-about, .footer-top-support, .footer-top-attractions, .footer-top-moreinfo {
+  display: flex;
+  flex-direction: column;
+  width: 12em;
+}
+
+.footer-column-title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.footer-top-right ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
+  gap: 2em;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom-subs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#email-form {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#email-form input {
+  height: 4em;
+  width: 13em;
+}
+
+#email-form button {
+  background-color: rgb(253, 128, 36);
+  border-color: rgb(253, 128, 36);
+  border-radius: 0px 0.3125rem 0.3125rem 0px;
+  width: 4em;
+}
+
+.footer-bottom {
+  gap: 5em;
+}
+
+.footer-bottom-subs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Botones RS: Martin */
+
+.boton-rs{
+  width: 40px;
+  height: 40px;
+  padding: 0.7em;
+  display: flex;
+  background-color: rgb(19, 17, 36);
+  border: none;
+  border-radius: 50%;
+
+}
+
+.svg-rs {
+  width: auto;
+  height: auto;
+  fill: white;
+}
+
+.boton-rs:hover {
+  cursor: pointer;
+}
+
+.footer-bottom-final {
+  font-size: smaller;
+}
+
+.footer-bottom-final-terms {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
